@@ -1,0 +1,41 @@
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+  /* Header */
+header .container {
+  max-width: 960px;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  padding: 0 1.5rem;
+  position: fixed;
+  width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.logo img {
+  height: 2rem;
+}
+.logo h3 {
+  font-weight: bold;
+  color: #827c78;
+}
+.page-header ul {
+  display: flex;
+  align-items: center;
+}
+.header-links li {
+  padding: 0 1rem;
+  font-size: 1.1rem;
+}
