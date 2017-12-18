@@ -11,13 +11,13 @@ body {
   display: flex;
   justify-content: space-between;
   height: 4rem;
-  padding: 0 1.5rem;
   width: 60rem;
 }
 .logo {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
+  padding-left: 1.5rem;
 }
 .logo img {
   height: 2rem;
@@ -29,6 +29,7 @@ body {
 .page-header ul {
   display: flex;
   align-items: center;
+  padding-right: 1.5rem;
 }
 .header-links li {
   padding: 0 1rem;
@@ -100,7 +101,7 @@ body {
 }
 .mainbody1 {
  width: 60%;
- margin: 2rem 1.5rem;
+ margin: 2rem 1.5rem 2rem 1.5rem;
 }
 .image2 img{
   width: 100%;
@@ -115,13 +116,12 @@ body {
 .mainbody1 p {
   line-height: 1.2rem;
   color: #827c78;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .mainbody1 h4 {
   font-size: .8rem;
   color: #827c78;
   font-weight: bold;
-  margin-bottom: 2rem;
 }
 /* Main Body Column 2*/
 .mainbody2 {
@@ -129,6 +129,7 @@ body {
   flex-direction: column;
   width: 40%;
   padding-top: 1rem;
+  margin-bottom: 2rem;
 }
 #orientation, #campus, #lecture {
   display: flex;
@@ -161,4 +162,62 @@ body {
 }
 #lecture {
   background-color: #d1cfce;
+}
+
+
+  /* Course Learning */
+.container3 {
+  width: 60rem;
+  margin: 0 auto;
+  background-color: #d1cfce;
+}
+.title h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 0 2rem 0;
+  color: #57524b;
+}
+.course-learning {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 4rem;
+}
+.course {
+  width: 28%;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+.business, .art {
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+.course img {
+  width: 100%;
+  height: auto;
+}
+.class-text {
+
+}
+.class-text h3 {
+  color: #736d66;
+  font-weight: 800;
+  font-size: 1.4rem;
+  padding: 1rem 0.5rem 0.5rem 1rem;
+}
+.class-text h4 {
+  color: #63adba;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0 0.5rem 0.5rem 1rem;
+
+}
+.class-text p {
+  color: ##736d66;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  padding: 0 0.5rem 1rem 1rem;
 }
