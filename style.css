@@ -218,7 +218,7 @@ body {
   padding: 0 0.5rem 1rem 1rem;
 }
 
-/* Thesis THESIS THESIS */
+/* Thesis  */
 .container4 {
   width: 60rem;
   margin: 0 auto;
@@ -282,4 +282,30 @@ body {
   color: #736d66;
   margin: 0.5rem 0;
   font-size: 1rem;
+}
+
+
+/* Footer  */
+
+.container5 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #d1cfce;
+  height: 5rem;
+  color: black;
+  align-items: center;
+}
+.page-footer {
+  display: flex;
+}
+.page-footer h4 {
+  padding-left: 1.5rem;
+}
+.privacy {
+  display: flex;
+  padding-right: 1.5rem;
+}
+.privacy p {
+  padding:0 1rem;
+  font-size: 0.9rem;
 }
